@@ -1,3 +1,4 @@
+/*Print sum of two numbers*/
 #include <iostream>
 using namespace std;
 
@@ -14,7 +15,7 @@ int main(){
     cin >> num2;
 
 
-    cout << "Sum = " <<num1+num2;
+    cout << "Sum = " << num1+num2;
 
 }
 /*int main(){

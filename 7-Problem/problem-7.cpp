@@ -1,3 +1,4 @@
+/*Convert days into years, weeks, days*/
 #include <iostream>
 using namespace std;
 
@@ -5,14 +6,17 @@ int main(){
    int days;
    int years;
    int weeks;
+   int tolaldays;
 
 
    cout << "Enter days:" ;
-   cin >> days;
+   cin >> tolaldays;
 
-   years = days/365;
-   weeks = days/7;
-   days = (years+weeks)-days;
+   int remainder_days = tolaldays % 365;
+
+   years = tolaldays / 365;
+   weeks = remainder_days  / 7;
+   days = remainder_days % 7;
 
 
    cout << "Years " << years <<endl;

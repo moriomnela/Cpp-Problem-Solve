@@ -1,3 +1,4 @@
+/*Convert Celsius to Fahrenheit*/
 #include <iostream>
 using namespace std;
 
@@ -12,7 +13,8 @@ int main(){
 
     fahrenheit = (celsius * 1.8) + 32;
 
-    cout << "Fahrenheit :" << fahrenheit ;
+    cout << "Fahrenheit :" << fahrenheit;
+
     //cout << "Fahrenheit :" << (celsius*1.8)+32;
 
 

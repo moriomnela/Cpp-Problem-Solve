@@ -1,3 +1,4 @@
+/*Print average of three numbers*/
 #include <iostream>
 using namespace std;
 
