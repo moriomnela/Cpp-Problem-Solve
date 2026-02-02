@@ -1,4 +1,4 @@
-/*Check even or odd*/
+/*Check positive, negative, or zero*/
 
 #include <iostream>
 using namespace std;

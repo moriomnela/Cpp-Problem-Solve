@@ -13,7 +13,7 @@ int main(){
    cin >> number2;
 
    if(number1 > number2){
-        cout << " Number 1 is Largest Number" << endl;
+        cout << "Number 1 is Largest Number" << endl;
    }else if (number1 < number2) {
         cout << "Number 2 is Largest Number" << endl;
    }else {
