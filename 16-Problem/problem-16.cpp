@@ -11,7 +11,8 @@ int main(){
    cin >> Alphabet;
 
 
-   if ( Alphabet == 'a'|| Alphabet == 'e' || Alphabet == 'i'|| Alphabet == 'o'|| Alphabet == 'u' || Alphabet == 'A'|| Alphabet =='E' || Alphabet == 'I'|| Alphabet == 'O' || Alphabet == 'U'){
+   if ( Alphabet == 'a'|| Alphabet == 'e' || Alphabet == 'i'|| Alphabet == 'o'|| Alphabet == 'u' ||
+        Alphabet == 'A'|| Alphabet =='E' || Alphabet == 'I'|| Alphabet == 'O' || Alphabet == 'U'){
       cout << "It's Vowel" << endl;
    }else {
         cout << "It's Consonant" << endl;
