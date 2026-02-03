@@ -9,7 +9,7 @@ int main(){
    cout << "Enter number: ";
    cin >> number;
 
-   int n;
+   int n=0;
    while(n <= number){
     if(n % 2 == 1){
         cout << n <<endl;
