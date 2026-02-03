@@ -14,7 +14,7 @@ int main(){
     int multiplication = 0;
    while(n <= 10){
        multiplication = number * n;
-       cout << number << "*" << n << "=" << multiplication <<endl;
+       cout << number << " * " << n << " = " << multiplication <<endl;
        n++;
      }
   return 0;
