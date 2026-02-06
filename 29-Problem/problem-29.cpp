@@ -1,4 +1,4 @@
-/*Reverse a number*/
+/*Check palindrome number*/
 #include <iostream>
 using namespace std;
 
@@ -12,13 +12,18 @@ int main(){
    cin >> number;
 
 
-
+   int orginal=number;
    while(number !=0 ){
        remainder = number % 10;
-       reverse = remainder;
+       reverse = reverse * 10 + remainder;
        number = number/10;
      }
-     cout <<"Reverse number is: " << reverse <<endl;
+      if(reverse == orginal){
+         cout <<"It's palindrome number " <<endl;
+       }else{
+        cout << "It's not palindrome number" << endl;
+       }
+
   return 0;
 }
 
