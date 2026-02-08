@@ -12,7 +12,8 @@ int main(){
    cin >> number;
 
 
-   int orginal=number;
+   int orginal = number;
+
    while(number !=0 ){
        remainder = number % 10;
        reverse = reverse * 10 + remainder;

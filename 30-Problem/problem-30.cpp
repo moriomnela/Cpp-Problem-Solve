@@ -22,7 +22,7 @@ int main(){
   while(n < number ){
       int Fibonacci = first + second;
       first = second;
-
+      second = Fibonacci;
       n++;
      cout <<  Fibonacci << endl;
   }
